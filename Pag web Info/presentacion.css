@@ -1,0 +1,38 @@
+body{
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero .indice a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+.hero .indice a:hover{
+    color: #0f0;
+}
+footer{
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+footer .social a {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #0f0;
+}

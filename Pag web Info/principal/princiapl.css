@@ -1,0 +1,182 @@
+body{
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #000;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 20px;
+}
+header .logo{
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+}
+header .menu{
+    display: flex;
+    gap: 40px;
+}
+header .menu a{
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s;
+}
+header .menu a:hover{
+    color: #0f0;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(img5.webp) no-repeat center center/cover;
+}
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+    font-family:helvetica;
+    font-weight: bold;
+}
+.hero .cta{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0f0;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: black;
+}
+.hero2 .cta{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0f0;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: black;
+}
+.hero3 .cta{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0f0;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: black;
+}
+.hero4 .cta{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0f0;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: black;
+}
+.hero5 .cta{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0f0;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    color: black;
+}
+.hero .cta:hover{
+    background-color: #fff;
+}
+.hero2 .cta:hover{
+    background-color: #fff;
+}
+.hero3 .cta:hover{
+    background-color: #fff;
+}
+.hero4 .cta:hover{
+    background-color: #fff;
+}
+.hero5 .cta:hover{
+    background-color: #fff;
+}
+.section {
+    padding: 100px 20px;
+    text-align: center;
+    background: url(s24c.mp4) ;
+}
+.section h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+footer{
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.videofondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+.hero2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero3 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(TRIPLE_S.avif) no-repeat center center/cover;
+}
+.hero4 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(cam.jpg) no-repeat center center/cover;
+}
+.hero5 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer .social a {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #0f0;
+}
